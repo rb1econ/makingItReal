@@ -1,0 +1,129 @@
+body {
+	background: rgb(135,155,155);
+}
+.content {
+	margin: 0px auto;
+	width: 550px;
+	overflow: hidden;
+}
+header {
+	background: rgb(100,100,100);
+	height: 250px;
+	margin-top: 20px;
+	border-bottom: 5px solid rgb(70,70,70);
+}
+.top {
+	background: rgb(100,200,100);
+	height: 200px;
+	border-bottom: 5px solid rgb(80,180,80);
+	position:relative;
+}
+header h1 {
+	font-size: 30px;
+	margin: 0;
+	color: rgb(255,255,255);
+	position:absolute;
+	left: 10px;
+	bottom: 10px;
+}
+header li {
+	display: inline;
+	padding-right: 5px;
+	color: rgb(255,255,255);
+}
+
+header ul {
+	text-align: right;
+}
+
+main {
+	background: rgb(240,240,240);
+	font-size: .9em;
+}
+
+.article {
+	padding: 15px;
+}
+.article p {
+	padding: 0 25px;
+}
+
+.borderBottomDiv{
+	padding: 7px;
+	border-bottom: 1px solid rgb(170,170,170);
+	position: relative;
+}
+
+.article h3 {
+	padding: 7px;
+	position: relative;
+}
+table tr td {
+	border: 1px solid rgb(150,150,150);
+	padding: 5px;
+}
+.grayHead {
+	background: rgb(190,190,190);
+	font-weight: bold;
+}
+
+.button {
+	background: rgb(90,90,210);
+	color: rgb(255,255,255);
+	padding: 3px 7px;
+	text-align: center;
+}
+.image{
+	background: rgb(170,170,170);
+	height: 100px;
+	width: 500px;
+	margin: 0px auto;
+}
+ol li {
+	margin-bottom: 15px;
+}
+.boldText {
+	font-weight: bold;
+}
+.article p.endTag {
+	color: rgb(170,170,170);
+	font-size: .8em;
+}
+
+.grayLineText {
+	color: rgb(170,170,170);
+	top: -5px;
+	left: 15px;
+	background: rgb(240,240,240);
+	position: absolute;
+	padding: 10px;
+}
+.commentDiv {
+	margin-bottom: 7px;
+}
+
+.comments form {
+	text-align: right;
+	padding: 20px;
+	vertical-align: middle;
+}
+.comments form input {
+	width: 65%;
+	padding-top: 7px;
+	margin-top: 3px;
+	border: 1px solid rgb(190,190,190);
+	border-top-width: 2px; 
+}
+.userCommentArea {
+	margin: 0px auto;
+}
+
+.textBox {
+	background: rgb(170,170,170);
+	height: 100px;
+	width: 500px;
+	margin: 0px auto;
+}
+.textBox pre {
+	text-align: left;
+}
