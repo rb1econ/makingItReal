@@ -121,9 +121,67 @@ ol li {
 .textBox {
 	background: rgb(170,170,170);
 	height: 100px;
-	width: 500px;
+	width: 92%;
+	margin: 0px auto;
+	position: relative;
+}
+.textBox .preText {
+	position: absolute;
+	display: inline-block;
+	top: 10px;
+	right: 110px;
+}
+
+.userCommentArea textarea {
+	display: block;
+	height: 130px;
+	width: 470px;
 	margin: 0px auto;
 }
-.textBox pre {
-	text-align: left;
+.submit {
+	display: block;
+	width: 92%;
+	height: 20px;
+	color: rgb(255,255,255);
+	background: rgb(235, 30, 30);
+	text-align: center;
+	margin: 0 auto;
+	padding: 8px 0;
+}
+
+.commentStream {
+	position:relative;
+}
+.commentStream img {
+	/*display: block;*/
+	padding: 0 10px;
+	float: left;
+}
+.commentStream .smallComments {
+	display: block;
+	width: 70%;
+	border-left: 1px solid rgb(170,170,170);
+	position: relative;
+	left: 90px;
+	clear:both;
+}
+.commentStream p {
+	padding:10px 10px;
+	clear: both;
+	margin:10px 0 0 0;
+}
+.commentStream .bigComments {
+	clear:both;
+	margin-top: 20px;
+}
+.commentStream span {
+	font-weight: bold;
+}
+.commentStream time {
+	color: rgb(170,170,170);
+	font-size: .85em;
+}
+
+.nameTime{
+	display: inline-block;
 }
